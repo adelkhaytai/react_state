@@ -1,7 +1,7 @@
 import { Component } from 'react';
 import './App.css';
 import './component/Style.css'
-import IntroState from './component/IntroState';
+import Timer from './component/Timer';
 
 class App extends Component  {
   constructor(props){
@@ -22,7 +22,7 @@ class App extends Component  {
             {this.state.isVisble ? "Hide" : "Show"}
            </button>
           <h1>Cart Profile</h1>
-          {this.state.isVisble ? <IntroState/> : <></>}
+          {this.state.isVisble ? <Timer/> : <></>}
         </div>
     
     )
