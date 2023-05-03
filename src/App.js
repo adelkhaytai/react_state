@@ -1,5 +1,6 @@
 import { Component } from 'react';
 import './App.css';
+import './component/Style.css'
 import IntroState from './component/IntroState';
 
 class App extends Component  {
@@ -17,7 +18,7 @@ class App extends Component  {
   render(){
     return(
         <div className="App">
-          <button onClick={this.toggleVisibilty}>
+          <button style={{color: 'black',background: 'white', padding: '10px',borderRadius: '10px',}} onClick={this.toggleVisibilty}>
             {this.state.isVisble ? "Hide" : "Show"}
            </button>
           <h1>Cart Profile</h1>

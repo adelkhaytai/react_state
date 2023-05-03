@@ -15,7 +15,8 @@
 .od{
   position: absolute;
   left: 520px;
-  /* border:black solid 1px; */
+  border:black solid 1px;
+  border-radius: 10px;
   box-shadow: 0px 0px 5px 1px;
 }
 .App-header {
